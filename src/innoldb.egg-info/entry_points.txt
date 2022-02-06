@@ -1,3 +1,0 @@
-[console_scripts]
-innoldb = innoldb.main:entrypoint
-
