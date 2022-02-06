@@ -1,16 +1,16 @@
 innoldb package
 ===============
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   innoldb.static
+
 Submodules
 ----------
-
-innoldb.logger module
----------------------
-
-.. automodule:: innoldb.logger
-   :members:
-   :undoc-members:
-   :show-inheritance:
 
 innoldb.main module
 -------------------
@@ -32,14 +32,6 @@ innoldb.settings module
 -----------------------
 
 .. automodule:: innoldb.settings
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-innoldb.version module
-----------------------
-
-.. automodule:: innoldb.version
    :members:
    :undoc-members:
    :show-inheritance:
