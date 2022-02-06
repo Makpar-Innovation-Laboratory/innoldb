@@ -5,3 +5,8 @@
 /dist/**
 /src/innoldb/innoldb.egg-info/
 /src/innoldb/innoldb.egg-info/*
+
+/.vscode/
+/env/
+/.pytest_cache/
+/tests/
