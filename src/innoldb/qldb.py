@@ -115,8 +115,8 @@ class Document(QLDB):
         """
         if snapshot is not None:
             if isinstance(snapshot, Strut):
-              snapshot = vars(snapshot)
-              
+                snapshot = vars(snapshot)
+
             for key, value in snapshot.items():
 
                 if isinstance(value, dict):
