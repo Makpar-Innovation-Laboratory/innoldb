@@ -1,12 +1,12 @@
 import uuid
 from botocore.exceptions import ClientError
 from itertools import tee
-from qldb-orm import settings
-from qldb-orm.static.logger import getLogger
-from qldb-orm.static.driver import Driver
-from qldb-orm.static.objects import Strut
+from innoldb import settings
+from innoldb.static.logger import getLogger
+from innoldb.static.driver import Driver
+from innoldb.static.objects import Strut
 
-log = getLogger('qldb-orm.qldb')
+log = getLogger('innoldb.qldb')
 
 
 class QLDB():

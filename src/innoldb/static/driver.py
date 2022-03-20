@@ -2,11 +2,11 @@ from json import loads, dumps
 from amazon.ion.simple_types import IonPyDict
 from amazon.ion.json_encoder import IonToJSONEncoder
 from pyqldb.driver.qldb_driver import QldbDriver
-from qldb-orm.static.logger import getLogger
-from qldb-orm.static import clauses
-from qldb-orm.static.objects import Strut, StrutEncoder
+from innoldb.static.logger import getLogger
+from innoldb.static import clauses
+from innoldb.static.objects import Strut, StrutEncoder
 
-log = getLogger('qldb-orm.driver')
+log = getLogger('innoldb.static.driver')
 
 
 class Driver():

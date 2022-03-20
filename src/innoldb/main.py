@@ -2,8 +2,8 @@ import argparse
 import pprint
 import random
 import sys
-from qldb-orm.qldb import Document, Query
-from qldb-orm.static.logger import getLogger
+from innoldb.qldb import Document, Query
+from innoldb.static.logger import getLogger
 
 log = getLogger('qldb-orm.main')
 printer = pprint.PrettyPrinter(indent=4)
