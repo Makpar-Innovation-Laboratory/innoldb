@@ -1,7 +1,7 @@
 # Applicaiton Requirements
 jsonconversion==0.2.13
 pyqldb==3.2.2
-python-dotenv==0.19.2
+python-dotenv==1.2.2
 
 # Build Requirements
 build==0.7.0
